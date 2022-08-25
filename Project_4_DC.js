@@ -48,28 +48,28 @@ function clicked(){
     //TO DISPLAY MESSAGE AND IMAGE ON TIME-
     if(wakeUp == hrs)
     {
-        document.getElementById("image_photo").src="./Image/first.png";
+        document.getElementById("image_photo").src="./first.png";
       
         document.getElementById("morning-label-id").innerHTML = "Good Morning!";
         document.getElementById("breakfast-label-id").innerHTML ="GRAB SOME HEALTHY BREAKFAST!!!";
     }
     if(lunchUp == hrs)
     {
-         document.getElementById("image_photo").src="./Image/second.png";
+         document.getElementById("image_photo").src="./second.png";
        
         document.getElementById("morning-label-id").innerHTML = "Good Afternoon!";
         document.getElementById("breakfast-label-id").innerHTML ="LETS HAVE SOME LUNCH !!";
     }
     if(napUp == hrs)
     {
-        document.getElementById("image_photo").src="./Image/third.png";
+        document.getElementById("image_photo").src="./third.png";
         
         document.getElementById("morning-label-id").innerHTML = "Good Evening";
         document.getElementById("breakfast-label-id").innerHTML ="GET SOME TEA";
     }
     if(nightUp == hrs)
     {
-        document.getElementById("image_photo").src="./Image/nightt.png";
+        document.getElementById("image_photo").src="./nightt.png";
         
         document.getElementById("morning-label-id").innerHTML = "Good Night";
         document.getElementById("breakfast-label-id").innerHTML = "TIME TO BED";
