@@ -1,0 +1,121 @@
+body{
+    background-color: mistyrose;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: paleturquoise;
+    height: 290px;
+    width: 200px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-evenly;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card>span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 30px ;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.delete {
+    right:50px !important;
+}
+
+.createpage {
+    display: none;
+}
+
+.popup1
+ {
+    background-color: whitesmoke;
+    color: rgba(182, 10, 10, 0.685);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    flex-flow: row wrap;
+    text-align: center;
+    height: 160px;
+    width: 300px;
+    padding: 20px;
+    justify-content: space-around;
+    left: 40%;
+    top: 200px;
+    border-radius: 20px;
+}
+.popup2{
+    background-color: rgba(0, 250, 196, 0.514);
+    color: rgba(182, 10, 10, 0.685);
+    position: absolute;
+    z-index: 10;
+    display: none;
+    flex-flow: row wrap;
+    text-align: center;
+    height: 160px;
+    width: 300px;
+    padding: 10px;
+    justify-content: space-around;
+    left: 500px;
+    top: 200px;
+    border-radius: 20px;
+}
+#head,#head1{
+    width: 280px;
+    height: 20px;
+   }
+
+input {
+    border-radius: 10px;
+}
+button{
+    background-color: orangered;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white ;
+    cursor: pointer;
+}
+
+.popup1>input,
+.popup1>button,
+.popup2>input,
+.popup2>button {
+    border: none;
+    padding: 10px;
+}
+
+.add{
+    font-size: xx-large;
+    margin-left: 10px;
+}
+
+#add {
+    font-size: x-large;
+    color: black;
+    border-radius: 50%;
+    border: solid 3px red;
+    margin-left: 1000px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.tasklist {
+    padding: 50px;
+    margin: 50px;
+    position: absolute;
+    font-size: xx-large;
+    
+}
